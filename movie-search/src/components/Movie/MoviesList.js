@@ -5,7 +5,7 @@ const MoviesList = ({ movies }) => {
   return (
     <div className="movie-wrapper">
       {movies.map((movie) => (
-        <MoviesListItem key={movie.imdbID} movie={movie}/>
+        <MoviesListItem key={movie.imdbID} movie={movie} />
       ))}
     </div>
   );

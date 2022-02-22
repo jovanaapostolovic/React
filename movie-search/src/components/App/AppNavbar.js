@@ -4,20 +4,19 @@ import AppNavbarTabs from "./AppNavbarTabs";
 import AppNavbarUser from "./AppNavbarUser";
 import "./style.css";
 
-
 const AppNavbar = () => {
-    return (
+  return (
     <div className="navbar">
-        <div className="navbar-content">
-            <img src={MovieLogo} alt="React Movie Logo"/>
+      <div className="navbar-content">
+        <img src={MovieLogo} alt="React Movie Logo" />
 
-            <div className="navbar-tabs">
-                <AppNavbarTabs/>
-            </div>
+        <div className="navbar-tabs">
+          <AppNavbarTabs />
         </div>
-        <AppNavbarUser/>
+      </div>
+      <AppNavbarUser />
     </div>
-    );
+  );
 };
 
 export default AppNavbar;

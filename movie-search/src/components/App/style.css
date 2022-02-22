@@ -1,34 +1,34 @@
 .navbar {
-    background-color: turquoise;
+    background-color: rgb(77, 98, 219);
     padding: 20px 30px;
     display: flex;
     align-items: center;
-    margin: 0, auto;
-}
-
-.navbar-content {
+    margin: 0 auto;
+  }
+  
+  .navbar-content {
     display: flex;
     align-items: center;
     flex-grow: 1;
-}
-
-.navbar-tabs {
+  }
+  
+  .navbar-tabs {
     margin: 0 20px;
-}
-
-.navbar-tab {
+  }
+  
+  .navbar-tab {
     color: white;
     margin: 0 10px;
     text-decoration: none;
-}
-
-.navbar-tab h2 {
+  }
+  
+  .navbar-tab h2 {
     display: inline;
     padding: 5px 10px;
-}
-
-.navbar-username {
+  }
+  
+  .navbar-username {
     color: white;
     margin-right: 20px;
-}
+  }
 
